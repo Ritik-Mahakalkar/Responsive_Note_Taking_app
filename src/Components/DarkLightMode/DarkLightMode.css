@@ -1,0 +1,76 @@
+
+body {
+    background: #adaeec;
+    color: #333;
+    font-family: "Poppins", sans-serif;
+    transition: background 0.4s ease, color 0.4s ease;
+  }
+  
+ 
+  body.dark-mode {
+    background: gray;
+    color: #ffffff;
+  }
+  body.dark-mode .note{
+    background: gray;
+    color: white;
+
+  }
+  body.dark-mode .contbtn{
+    background: linear-gradient(135deg, rgb(192, 188, 188), gray);
+    
+    
+
+  }
+  body.dark-mode .dark-mode-toggle{
+    border:1px solid white;
+  }
+  body.dark-mode .contbtn:hover{
+    background: linear-gradient(135deg,gray, rgb(192, 188, 188));
+  }
+  
+ 
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1100px;
+    margin: 20px auto;
+    transition: background 0.3s ease;
+  }
+  
+
+  body.dark-mode .navbar {
+    background: rgb(172, 168, 168);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+ 
+  .dark-mode-toggle {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .dark-mode-toggle:hover {
+    background: linear-gradient(135deg, #0056b3, #007bff);
+    transform: scale(1.1);
+  }
+  
+ 
